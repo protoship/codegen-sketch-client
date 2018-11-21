@@ -5,7 +5,7 @@
   "email": "hello@protoship.io",
   "homepage": "https://protoship.io",
   "authorEmail": "hello@protoship.io",
-  "version": "2.4",
+  "version": "2.5",
   "identifier": "io.protoship.sketch.codegen",
   "compatibleVersion": 52,
   "appcast": "https://raw.githubusercontent.com/protoship/codegen-sketch-plugin/master/appcast.xml",
