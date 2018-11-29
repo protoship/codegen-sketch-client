@@ -693,7 +693,7 @@ code {
 }
 
 .ps-bg-grey2 {
-  background-color: rgba(128, 128, 128, .2);
+  background-color: rgb(240, 240, 240);
 }
 
 .ps-bg-grey3 {
@@ -749,7 +749,7 @@ code {
 }
 
 .hover\:ps-bg-grey2:hover {
-  background-color: rgba(128, 128, 128, .2);
+  background-color: rgb(240, 240, 240);
 }
 
 .hover\:ps-bg-grey3:hover {
@@ -869,7 +869,7 @@ code {
 }
 
 .ps-border-grey2 {
-  border-color: rgba(128, 128, 128, .2);
+  border-color: rgb(240, 240, 240);
 }
 
 .ps-border-grey3 {
@@ -925,7 +925,7 @@ code {
 }
 
 .hover\:ps-border-grey2:hover {
-  border-color: rgba(128, 128, 128, .2);
+  border-color: rgb(240, 240, 240);
 }
 
 .hover\:ps-border-grey3:hover {
@@ -4142,13 +4142,6 @@ code {
   background: rgba(61, 59, 70, .8);
 }
 
-.PS-Workarea {
-  /* if the workarea content expands beyond a single screen, then the flex needs
-   to know that we expect to display all of it, otherwise it'll cut off background-color 
-   and scrollbar. https://gedd.ski/post/the-difference-between-width-and-flex-basis/ */
-  min-width: min-content;
-};
-
 /*
 Similar to Tailwind's ps-select-none, but cross-browser:
 https://developer.mozilla.org/en-US/docs/Web/CSS/user-select
@@ -4181,7 +4174,7 @@ https://developer.mozilla.org/en-US/docs/Web/CSS/user-select
 }
 
 .PS-cancel-button {
-  background-color: rgba(128, 128, 128, .2);
+  background-color: rgb(240, 240, 240);
   color: #000;
   cursor: pointer;
   padding: 10px;
@@ -4192,4 +4185,8 @@ https://developer.mozilla.org/en-US/docs/Web/CSS/user-select
 .PS-cancel-button:hover {
   background-color: #2a2d2e;
   color: #fff;
+}
+
+.PS-highlight-grouping-errors [data-grouping-error=""] {
+  filter: invert(.5);
 }
