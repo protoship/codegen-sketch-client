@@ -1,11 +1,5 @@
-# Protoship Codegen Sketch Plugin
+# Codegen is under development!
 
-![Codegen Sketch Client preview](preview.png)
+Thanks for your interest. Protoship Codegen is under active development and is not ready for public use. If you want to keep track of our progress, [sign-up for our newsletter here](http://eepurl.com/bDJvw1).
 
-Build complex webapps from Sketch designs by generating elegant HTML & CSS that programmers can easily understand, adapt, and deploy.
-
-### [Try this 5-minute tutorial first!](http://protoship.io/tools/download/codegen-tutorial.zip)
-
-Codegen is currently under limited beta. Write to us at [hello@protoship.io](mailto:hello@protoship.io) for a guided tour.
-
-Visit [protoship.io](https://protoship.io) to know more.
+Visit [protoship.io](https://protoship.io) to know more or write to us at [hello@protoship.io](mailto:hello@protoship.io).
