@@ -684,6 +684,14 @@ code {
   background-color: #fff;
 }
 
+.ps-bg-white1 {
+  background-color: #aaaaaa88;
+}
+
+.ps-bg-black1 {
+  background-color: #06060e;
+}
+
 .ps-bg-grey0 {
   background-color: #252526;
 }
@@ -698,6 +706,10 @@ code {
 
 .ps-bg-grey3 {
   background-color: #737373;
+}
+
+.ps-bg-grey4 {
+  background-color: rgba(65, 63, 69, .89);
 }
 
 .ps-bg-blue0 {
@@ -728,16 +740,20 @@ code {
   background-color: #fdffdf;
 }
 
-.ps-bg-yellow1 {
-  background-color: #deea31;
-}
-
 .hover\:ps-bg-transparent:hover {
   background-color: transparent;
 }
 
 .hover\:ps-bg-white:hover {
   background-color: #fff;
+}
+
+.hover\:ps-bg-white1:hover {
+  background-color: #aaaaaa88;
+}
+
+.hover\:ps-bg-black1:hover {
+  background-color: #06060e;
 }
 
 .hover\:ps-bg-grey0:hover {
@@ -754,6 +770,10 @@ code {
 
 .hover\:ps-bg-grey3:hover {
   background-color: #737373;
+}
+
+.hover\:ps-bg-grey4:hover {
+  background-color: rgba(65, 63, 69, .89);
 }
 
 .hover\:ps-bg-blue0:hover {
@@ -782,10 +802,6 @@ code {
 
 .hover\:ps-bg-yellow0:hover {
   background-color: #fdffdf;
-}
-
-.hover\:ps-bg-yellow1:hover {
-  background-color: #deea31;
 }
 
 .ps-bg-bottom {
@@ -860,6 +876,14 @@ code {
   border-color: #fff;
 }
 
+.ps-border-white1 {
+  border-color: #aaaaaa88;
+}
+
+.ps-border-black1 {
+  border-color: #06060e;
+}
+
 .ps-border-grey0 {
   border-color: #252526;
 }
@@ -874,6 +898,10 @@ code {
 
 .ps-border-grey3 {
   border-color: #737373;
+}
+
+.ps-border-grey4 {
+  border-color: rgba(65, 63, 69, .89);
 }
 
 .ps-border-blue0 {
@@ -904,16 +932,20 @@ code {
   border-color: #fdffdf;
 }
 
-.ps-border-yellow1 {
-  border-color: #deea31;
-}
-
 .hover\:ps-border-transparent:hover {
   border-color: transparent;
 }
 
 .hover\:ps-border-white:hover {
   border-color: #fff;
+}
+
+.hover\:ps-border-white1:hover {
+  border-color: #aaaaaa88;
+}
+
+.hover\:ps-border-black1:hover {
+  border-color: #06060e;
 }
 
 .hover\:ps-border-grey0:hover {
@@ -930,6 +962,10 @@ code {
 
 .hover\:ps-border-grey3:hover {
   border-color: #737373;
+}
+
+.hover\:ps-border-grey4:hover {
+  border-color: rgba(65, 63, 69, .89);
 }
 
 .hover\:ps-border-blue0:hover {
@@ -958,10 +994,6 @@ code {
 
 .hover\:ps-border-yellow0:hover {
   border-color: #fdffdf;
-}
-
-.hover\:ps-border-yellow1:hover {
-  border-color: #deea31;
 }
 
 .ps-rounded-none {
@@ -3070,6 +3102,10 @@ code {
   opacity: 0;
 }
 
+.ps-opacity-10 {
+  opacity: .1;
+}
+
 .ps-opacity-25 {
   opacity: .25;
 }
@@ -4123,23 +4159,8 @@ code {
  * @import "utilities/skew-transforms";
  */
 
-/* SCROLLBAR STYLING taken from https://css-tricks.com/custom-scrollbars-in-webkit/, https://css-tricks.com/examples/WebKitScrollbars/ */
-
-::-webkit-scrollbar {
-  width: 8px;
-}
-
-::-webkit-scrollbar-track {
-  -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, .3);
-}
-
-::-webkit-scrollbar-thumb {
-  background: rgba(112, 102, 130, .8);
-  -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, .5);
-}
-
-::-webkit-scrollbar-thumb:window-inactive {
-  background: rgba(61, 59, 70, .8);
+.PS-outline:focus {
+  outline: black auto 2px;
 }
 
 /*
@@ -4189,4 +4210,20 @@ https://developer.mozilla.org/en-US/docs/Web/CSS/user-select
 
 .PS-highlight-grouping-errors [data-grouping-error=""] {
   filter: invert(.5);
+}
+
+.PS-activeSelection {
+  background-color: rgba(14, 99, 156, .5);
+}
+
+.PS-unfocusedSelection {
+  background-color: rgba(32, 144, 193, .4);
+}
+
+.PS-hoverBorder {
+  border-color: #0b0093;
+}
+
+.PS-flex-basis-auto {
+  flex-basis: auto;
 }
