@@ -740,6 +740,14 @@ code {
   background-color: #fdffdf;
 }
 
+.ps-bg-leather-grey4 {
+  background-color: rgba(61, 73, 82, .6);
+}
+
+.ps-bg-leather-grey3 {
+  background-color: #00000073;
+}
+
 .hover\:ps-bg-transparent:hover {
   background-color: transparent;
 }
@@ -802,6 +810,14 @@ code {
 
 .hover\:ps-bg-yellow0:hover {
   background-color: #fdffdf;
+}
+
+.hover\:ps-bg-leather-grey4:hover {
+  background-color: rgba(61, 73, 82, .6);
+}
+
+.hover\:ps-bg-leather-grey3:hover {
+  background-color: #00000073;
 }
 
 .ps-bg-bottom {
@@ -932,6 +948,14 @@ code {
   border-color: #fdffdf;
 }
 
+.ps-border-leather-grey4 {
+  border-color: rgba(61, 73, 82, .6);
+}
+
+.ps-border-leather-grey3 {
+  border-color: #00000073;
+}
+
 .hover\:ps-border-transparent:hover {
   border-color: transparent;
 }
@@ -994,6 +1018,14 @@ code {
 
 .hover\:ps-border-yellow0:hover {
   border-color: #fdffdf;
+}
+
+.hover\:ps-border-leather-grey4:hover {
+  border-color: rgba(61, 73, 82, .6);
+}
+
+.hover\:ps-border-leather-grey3:hover {
+  border-color: #00000073;
 }
 
 .ps-rounded-none {
@@ -1634,6 +1666,10 @@ code {
   height: 22px;
 }
 
+.ps-h-24 {
+  height: 24px;
+}
+
 .ps-h-32 {
   height: 32px;
 }
@@ -1654,8 +1690,8 @@ code {
   height: 256px;
 }
 
-.ps-h-330 {
-  height: 330px;
+.ps-h-320 {
+  height: 320px;
 }
 
 .ps-h-640 {
@@ -1770,6 +1806,10 @@ code {
   margin: 22px;
 }
 
+.ps-m-24 {
+  margin: 24px;
+}
+
 .ps-m-32 {
   margin: 32px;
 }
@@ -1790,8 +1830,8 @@ code {
   margin: 256px;
 }
 
-.ps-m-330 {
-  margin: 330px;
+.ps-m-320 {
+  margin: 320px;
 }
 
 .ps-m-640 {
@@ -1860,6 +1900,16 @@ code {
   margin-right: 22px;
 }
 
+.ps-my-24 {
+  margin-top: 24px;
+  margin-bottom: 24px;
+}
+
+.ps-mx-24 {
+  margin-left: 24px;
+  margin-right: 24px;
+}
+
 .ps-my-32 {
   margin-top: 32px;
   margin-bottom: 32px;
@@ -1910,14 +1960,14 @@ code {
   margin-right: 256px;
 }
 
-.ps-my-330 {
-  margin-top: 330px;
-  margin-bottom: 330px;
+.ps-my-320 {
+  margin-top: 320px;
+  margin-bottom: 320px;
 }
 
-.ps-mx-330 {
-  margin-left: 330px;
-  margin-right: 330px;
+.ps-mx-320 {
+  margin-left: 320px;
+  margin-right: 320px;
 }
 
 .ps-my-640 {
@@ -2040,6 +2090,22 @@ code {
   margin-left: 22px;
 }
 
+.ps-mt-24 {
+  margin-top: 24px;
+}
+
+.ps-mr-24 {
+  margin-right: 24px;
+}
+
+.ps-mb-24 {
+  margin-bottom: 24px;
+}
+
+.ps-ml-24 {
+  margin-left: 24px;
+}
+
 .ps-mt-32 {
   margin-top: 32px;
 }
@@ -2120,20 +2186,20 @@ code {
   margin-left: 256px;
 }
 
-.ps-mt-330 {
-  margin-top: 330px;
+.ps-mt-320 {
+  margin-top: 320px;
 }
 
-.ps-mr-330 {
-  margin-right: 330px;
+.ps-mr-320 {
+  margin-right: 320px;
 }
 
-.ps-mb-330 {
-  margin-bottom: 330px;
+.ps-mb-320 {
+  margin-bottom: 320px;
 }
 
-.ps-ml-330 {
-  margin-left: 330px;
+.ps-ml-320 {
+  margin-left: 320px;
 }
 
 .ps-mt-640 {
@@ -2220,6 +2286,10 @@ code {
   max-height: 22px;
 }
 
+.ps-max-h-24 {
+  max-height: 24px;
+}
+
 .ps-max-h-32 {
   max-height: 32px;
 }
@@ -2240,8 +2310,8 @@ code {
   max-height: 256px;
 }
 
-.ps-max-h-330 {
-  max-height: 330px;
+.ps-max-h-320 {
+  max-height: 320px;
 }
 
 .ps-max-h-640 {
@@ -2332,6 +2402,10 @@ code {
   max-width: 22px;
 }
 
+.ps-max-w-24 {
+  max-width: 24px;
+}
+
 .ps-max-w-32 {
   max-width: 32px;
 }
@@ -2352,8 +2426,8 @@ code {
   max-width: 256px;
 }
 
-.ps-max-w-330 {
-  max-width: 330px;
+.ps-max-w-320 {
+  max-width: 320px;
 }
 
 .ps-max-w-640 {
@@ -2444,6 +2518,10 @@ code {
   min-height: 22px;
 }
 
+.ps-min-h-24 {
+  min-height: 24px;
+}
+
 .ps-min-h-32 {
   min-height: 32px;
 }
@@ -2464,8 +2542,8 @@ code {
   min-height: 256px;
 }
 
-.ps-min-h-330 {
-  min-height: 330px;
+.ps-min-h-320 {
+  min-height: 320px;
 }
 
 .ps-min-h-640 {
@@ -2556,6 +2634,10 @@ code {
   min-width: 22px;
 }
 
+.ps-min-w-24 {
+  min-width: 24px;
+}
+
 .ps-min-w-32 {
   min-width: 32px;
 }
@@ -2576,8 +2658,8 @@ code {
   min-width: 256px;
 }
 
-.ps-min-w-330 {
-  min-width: 330px;
+.ps-min-w-320 {
+  min-width: 320px;
 }
 
 .ps-min-w-640 {
@@ -2668,6 +2750,10 @@ code {
   margin: -22px;
 }
 
+.ps--m-24 {
+  margin: -24px;
+}
+
 .ps--m-32 {
   margin: -32px;
 }
@@ -2688,8 +2774,8 @@ code {
   margin: -256px;
 }
 
-.ps--m-330 {
-  margin: -330px;
+.ps--m-320 {
+  margin: -320px;
 }
 
 .ps--m-640 {
@@ -2758,6 +2844,16 @@ code {
   margin-right: -22px;
 }
 
+.ps--my-24 {
+  margin-top: -24px;
+  margin-bottom: -24px;
+}
+
+.ps--mx-24 {
+  margin-left: -24px;
+  margin-right: -24px;
+}
+
 .ps--my-32 {
   margin-top: -32px;
   margin-bottom: -32px;
@@ -2808,14 +2904,14 @@ code {
   margin-right: -256px;
 }
 
-.ps--my-330 {
-  margin-top: -330px;
-  margin-bottom: -330px;
+.ps--my-320 {
+  margin-top: -320px;
+  margin-bottom: -320px;
 }
 
-.ps--mx-330 {
-  margin-left: -330px;
-  margin-right: -330px;
+.ps--mx-320 {
+  margin-left: -320px;
+  margin-right: -320px;
 }
 
 .ps--my-640 {
@@ -2938,6 +3034,22 @@ code {
   margin-left: -22px;
 }
 
+.ps--mt-24 {
+  margin-top: -24px;
+}
+
+.ps--mr-24 {
+  margin-right: -24px;
+}
+
+.ps--mb-24 {
+  margin-bottom: -24px;
+}
+
+.ps--ml-24 {
+  margin-left: -24px;
+}
+
 .ps--mt-32 {
   margin-top: -32px;
 }
@@ -3018,20 +3130,20 @@ code {
   margin-left: -256px;
 }
 
-.ps--mt-330 {
-  margin-top: -330px;
+.ps--mt-320 {
+  margin-top: -320px;
 }
 
-.ps--mr-330 {
-  margin-right: -330px;
+.ps--mr-320 {
+  margin-right: -320px;
 }
 
-.ps--mb-330 {
-  margin-bottom: -330px;
+.ps--mb-320 {
+  margin-bottom: -320px;
 }
 
-.ps--ml-330 {
-  margin-left: -330px;
+.ps--ml-320 {
+  margin-left: -320px;
 }
 
 .ps--mt-640 {
@@ -3182,6 +3294,10 @@ code {
   padding: 22px;
 }
 
+.ps-p-24 {
+  padding: 24px;
+}
+
 .ps-p-32 {
   padding: 32px;
 }
@@ -3202,8 +3318,8 @@ code {
   padding: 256px;
 }
 
-.ps-p-330 {
-  padding: 330px;
+.ps-p-320 {
+  padding: 320px;
 }
 
 .ps-p-640 {
@@ -3268,6 +3384,16 @@ code {
   padding-right: 22px;
 }
 
+.ps-py-24 {
+  padding-top: 24px;
+  padding-bottom: 24px;
+}
+
+.ps-px-24 {
+  padding-left: 24px;
+  padding-right: 24px;
+}
+
 .ps-py-32 {
   padding-top: 32px;
   padding-bottom: 32px;
@@ -3318,14 +3444,14 @@ code {
   padding-right: 256px;
 }
 
-.ps-py-330 {
-  padding-top: 330px;
-  padding-bottom: 330px;
+.ps-py-320 {
+  padding-top: 320px;
+  padding-bottom: 320px;
 }
 
-.ps-px-330 {
-  padding-left: 330px;
-  padding-right: 330px;
+.ps-px-320 {
+  padding-left: 320px;
+  padding-right: 320px;
 }
 
 .ps-py-640 {
@@ -3438,6 +3564,22 @@ code {
   padding-left: 22px;
 }
 
+.ps-pt-24 {
+  padding-top: 24px;
+}
+
+.ps-pr-24 {
+  padding-right: 24px;
+}
+
+.ps-pb-24 {
+  padding-bottom: 24px;
+}
+
+.ps-pl-24 {
+  padding-left: 24px;
+}
+
 .ps-pt-32 {
   padding-top: 32px;
 }
@@ -3518,20 +3660,20 @@ code {
   padding-left: 256px;
 }
 
-.ps-pt-330 {
-  padding-top: 330px;
+.ps-pt-320 {
+  padding-top: 320px;
 }
 
-.ps-pr-330 {
-  padding-right: 330px;
+.ps-pr-320 {
+  padding-right: 320px;
 }
 
-.ps-pb-330 {
-  padding-bottom: 330px;
+.ps-pb-320 {
+  padding-bottom: 320px;
 }
 
-.ps-pl-330 {
-  padding-left: 330px;
+.ps-pl-320 {
+  padding-left: 320px;
 }
 
 .ps-pt-640 {
@@ -4024,6 +4166,10 @@ code {
   width: 22px;
 }
 
+.ps-w-24 {
+  width: 24px;
+}
+
 .ps-w-32 {
   width: 32px;
 }
@@ -4044,8 +4190,8 @@ code {
   width: 256px;
 }
 
-.ps-w-330 {
-  width: 330px;
+.ps-w-320 {
+  width: 320px;
 }
 
 .ps-w-640 {
@@ -4159,21 +4305,35 @@ code {
  * @import "utilities/skew-transforms";
  */
 
-.PS-outline:focus {
-  outline: black auto 2px;
+/* =========== COMPONENT CLASSES ============ */
+
+/* --- LAYER SELECTION */
+
+/* The layer highlight goes from bright to dark depending
+on whether currently selected or not. That takes the contrast between
+the tag (which is dim) out of whack. So adjust that depending on
+layer highlight status */
+
+.PS-layer .PS-layerTag {
+  color: #737374;
 }
 
-/*
-Similar to Tailwind's ps-select-none, but cross-browser:
-https://developer.mozilla.org/en-US/docs/Web/CSS/user-select
-*/
-
-.PS-select-none {
-     -moz-user-select: none;
-  -webkit-user-select: none;
-      -ms-user-select: none;
-          user-select: none;
+.PS-layer_highlight .PS-layerTag,
+.PS-layer_minHighlight .PS-layerTag {
+  color: rgb(204, 204, 204);
 }
+
+/* Show ellipsis for long layer names */
+
+.PS-layerName {
+  max-width: 106px;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  display: inline-block;
+  line-height: 1;
+}
+
+/* -- END LAYER SELECTION */
 
 .PS-text-input {
   border-width: 1px;
@@ -4204,7 +4364,7 @@ https://developer.mozilla.org/en-US/docs/Web/CSS/user-select
 }
 
 .PS-cancel-button:hover {
-  background-color: #2a2d2e;
+  background-color: #1a2d3e;
   color: #fff;
 }
 
@@ -4213,17 +4373,96 @@ https://developer.mozilla.org/en-US/docs/Web/CSS/user-select
 }
 
 .PS-activeSelection {
-  background-color: rgba(14, 99, 156, .5);
+  border-color: #0b0093;
+  border-width: 2px;
 }
 
 .PS-unfocusedSelection {
-  background-color: rgba(32, 144, 193, .4);
+  border-color: #0b0093;
+  border-width: 2px;
 }
 
 .PS-hoverBorder {
   border-color: #0b0093;
 }
 
+.PS-leatherButton {
+  padding: 4px;
+}
+
+.PS-rightSidebar {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 40px 120px 240px 1fr;
+}
+
+.PS-cssAutoGenerated {
+  background-color: rgba(10, 10, 10, .4);
+}
+
+/* Monaco CSS Editor */
+
+.PS-cssEditor {
+  width: 100%;
+  height: 180px;
+}
+
+/* This is when the editor is in view state,
+and we account for the height of the status row */
+
+.PS-cssViewStateForEditor {
+  background-color: rgba(10, 10, 10, .4);
+}
+
+.PS-cssEditorWrapper {
+  background-color: rgba(10, 10, 10, .4);
+}
+
+/* =================== OUR OWN UTILITIESS  ====================== */
+
+.PS-outline:focus {
+  outline-style: dotted;
+  outline-width: 1px;
+  outline-color: rgba(11, 0, 66, .2);
+}
+
+/*
+Similar to Tailwind's ps-select-none, but cross-browser:
+https://developer.mozilla.org/en-US/docs/Web/CSS/user-select
+*/
+
+.PS-select-none {
+     -moz-user-select: none;
+  -webkit-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
+}
+
+.PS-select-text {
+     -moz-user-select: text;
+  -webkit-user-select: text;
+      -ms-user-select: text;
+          user-select: text;
+}
+
 .PS-flex-basis-auto {
   flex-basis: auto;
+}
+
+.ps-rotate-90 {
+  transform: rotate(90deg);
+}
+
+.ps-bg-leather-grey {
+  background-color: #1a2d3e;
+}
+
+/* CUSTOMIZE MONACO EDITOR */
+
+/* The autocomplete widget starts at negative margin when it begins
+because it doesn't have enough space and so gets hidden mostly. 
+so we make it smaller */
+
+.monaco-editor .suggest-widget {
+  width: 230px !important;
 }

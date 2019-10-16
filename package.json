@@ -1,9 +1,9 @@
 {
   "name": "Protoship Codegen Sketch Client",
   "description": "Build complex webapps from Sketch designs by generating elegant HTML & CSS that programmers can easily understand, adapt, and deploy",
-  "version": "3.3.0",
+  "version": "4.0.0",
   "engines": {
-    "sketch": ">=52"
+    "sketch": ">=58"
   },
   "skpm": {
     "name": "Protoship Codegen Sketch Client",

@@ -1,27 +1,27 @@
 {
   "name": "Protoship Codegen",
-  "description": "Export Sketch designs into elegant code that programmers can understand, change, and deploy",
+  "description": "Export Sketch designs into elegant HTML & CSS that programmers can understand and change. Static positioning with margins, paddings, flexboxes and CSS Grids. Design scales and functional CSS using Tailwind.",
   "author": "Protoship",
   "email": "hello@protoship.io",
   "homepage": "https://protoship.io",
   "authorEmail": "hello@protoship.io",
-  "version": "2.5",
+  "version": "4.0.0",
   "identifier": "io.protoship.sketch.codegen",
-  "compatibleVersion": 52,
-  "appcast": "https://raw.githubusercontent.com/protoship/codegen-sketch-plugin/master/appcast.xml",
+  "compatibleVersion": "58",
+  "appcast": "https://raw.githubusercontent.com/protoship/codegen-sketch-client/master/.appcast.xml",
   "bundleVersion": 1,
   "commands": [
     {
       "name": "Quick Export (skips image reupload)",
       "identifier": "fast_export",
       "shortcut": "shift cmd u",
-      "script": "pluginEntrypoint.bs.js",
+      "script": "pluginEntrypoint_bs.js",
       "handler": "fastExport"
     },
     {
       "name": "Full Export",
       "identifier": "full_export",
-      "script": "pluginEntrypoint.bs.js",
+      "script": "pluginEntrypoint_bs.js",
       "handler": "fullExport"
     }
   ],
