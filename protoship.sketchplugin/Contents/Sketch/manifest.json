@@ -5,7 +5,6 @@
   "email": "hello@protoship.io",
   "homepage": "https://protoship.io",
   "authorEmail": "hello@protoship.io",
-  "version": "4.0.0",
   "identifier": "io.protoship.sketch.codegen",
   "compatibleVersion": "58",
   "appcast": "https://raw.githubusercontent.com/protoship/codegen-sketch-client/master/.appcast.xml",
@@ -32,5 +31,6 @@
       "full_export"
     ]
   },
-  "disableCocoaScriptPreprocessor": true
+  "disableCocoaScriptPreprocessor": true,
+  "version": "4.5.6"
 }
