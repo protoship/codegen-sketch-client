@@ -2,6 +2,9 @@
 <rss xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle" xmlns:dc="http://purl.org/dc/elements/1.1/" version="2.0">
   <channel>
     <item>
+      <enclosure url="https://github.com/protoship/codegen-sketch-client/releases/download/v4.5.6/protoship.sketchplugin.zip" sparkle:version="4.5.6"/>
+    </item>
+    <item>
       <enclosure url="https://github.com/protoship/codegen-sketch-client/releases/download/v4.2.0/protoship.sketchplugin.zip" sparkle:version="4.2.0"/>
     </item>
     <item>
