@@ -718,11 +718,6 @@ code {
   margin-right: 0.5rem;
 }
 
-.ps-my-8 {
-  margin-top: 2rem;
-  margin-bottom: 2rem;
-}
-
 .ps-mb-0 {
   margin-bottom: 0;
 }
@@ -745,6 +740,10 @@ code {
 
 .ps-mb-4 {
   margin-bottom: 1rem;
+}
+
+.ps-mt-8 {
+  margin-top: 2rem;
 }
 
 .ps-mr-8 {
