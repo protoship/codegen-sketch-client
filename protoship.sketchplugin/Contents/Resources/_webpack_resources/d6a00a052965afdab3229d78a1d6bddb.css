@@ -669,15 +669,18 @@ code {
 }
 
 .ps-flex {
+  display: -webkit-box;
   display: flex;
 }
 
 .ps-items-center {
-  align-items: center;
+  -webkit-box-align: center;
+          align-items: center;
 }
 
 .ps-justify-between {
-  justify-content: space-between;
+  -webkit-box-pack: justify;
+          justify-content: space-between;
 }
 
 .ps-font-sans {
