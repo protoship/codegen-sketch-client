@@ -745,6 +745,10 @@ code {
   margin-bottom: 1rem;
 }
 
+.ps-mb-6 {
+  margin-bottom: 1.5rem;
+}
+
 .ps-mt-8 {
   margin-top: 2rem;
 }
@@ -841,6 +845,10 @@ code {
 
 .ps-text-gray-800 {
   color: #2d3748;
+}
+
+.ps-text-red-900 {
+  color: #742a2a;
 }
 
 .ps-text-yellow-800 {
