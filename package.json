@@ -2,7 +2,7 @@
   "name": "ProtoshipCodegenSketchClient",
   "description": "Build complex webapps from Sketch designs by generating elegant HTML & CSS that programmers can easily understand, adapt, and deploy",
   "author": "Protoship <hello@protoship.io>",
-  "version": "4.7.0",
+  "version": "4.8.0",
   "engines": {
     "sketch": ">=58"
   },

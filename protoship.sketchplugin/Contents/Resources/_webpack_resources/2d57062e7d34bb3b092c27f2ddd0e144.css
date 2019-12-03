@@ -948,6 +948,8 @@ layer highlight status */
   }
 }
 
+/* --- END SaaS */
+
 /* Monaco CSS Editor */
 
 /* This is when the editor is in view state,
@@ -986,3 +988,4 @@ so we make it smaller */
 button.PS-sketch-plugin-button:focus {
   outline: 0 !important;
 }
+
