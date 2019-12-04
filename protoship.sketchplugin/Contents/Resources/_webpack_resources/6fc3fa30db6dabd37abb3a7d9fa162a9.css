@@ -871,8 +871,8 @@ code {
   font-size: 13px;
 }
 
-.ps-text-base {
-  font-size: 1rem;
+.ps-text-sm {
+  font-size: 0.875rem;
 }
 
 .ps-text-lg {
