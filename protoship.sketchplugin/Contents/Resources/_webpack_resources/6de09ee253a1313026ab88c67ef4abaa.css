@@ -905,6 +905,10 @@ code {
   width: 2rem;
 }
 
+.ps-w-160 {
+  width: 40rem;
+}
+
 .ps-w-full {
   width: 100%;
 }
@@ -988,4 +992,3 @@ so we make it smaller */
 button.PS-sketch-plugin-button:focus {
   outline: 0 !important;
 }
-
