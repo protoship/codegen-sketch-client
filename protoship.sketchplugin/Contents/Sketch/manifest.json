@@ -22,18 +22,6 @@
       "identifier": "full_export",
       "script": "codegenEntrypoint_bs.js",
       "handler": "fullExport"
-    },
-    {
-      "name": "Teleport - Import website into Artboard (high-fidelity)",
-      "identifier": "full_import",
-      "script": "teleportEntrypoint_bs.js",
-      "handler": "fullImport"
-    },
-    {
-      "name": "Teleport - Import website into Artboard (wireframes)",
-      "identifier": "wireframe_import",
-      "script": "teleportEntrypoint_bs.js",
-      "handler": "wireframeImport"
     }
   ],
   "menu": {
@@ -46,5 +34,5 @@
     ]
   },
   "disableCocoaScriptPreprocessor": true,
-  "version": "4.11.0"
+  "version": "4.12.0"
 }
